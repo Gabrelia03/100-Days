@@ -1,0 +1,13 @@
+public class isc1 {
+    public static void main(String[] args) {
+        String nama = "Gabrelia";
+        int usia = 20;
+        String alamat = "Jl. Melati No. 123";
+        String pekerjaan = "Mahasiswa";
+        
+        System.out.println("===== BIODATA =====");
+        System.out.println("Nama: " + nama);
+        System.out.println("Usia: " + usia + " tahun");
+        System.out.println("Alamat: " + alamat);
+        System.out.println("Pekerjaan: " + pekerjaan);
+    }
