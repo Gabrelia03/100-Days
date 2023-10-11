@@ -1,0 +1,10 @@
+public class input {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("masukkan batas: ");
+        int batas = input.nextInt();
+        for (int jumlah = 1; jumlah <= batas; jumlah++){
+            System.out.println(jumlah);
+        }
+    }
+}
