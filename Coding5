@@ -1,0 +1,18 @@
+public class isc5 {
+
+    public static void main(String[] args) {
+        //menukarkan isi dua variabel
+        String x = "teh";
+        String y = "kopi";
+
+        String temp;
+        temp = x;
+        x = y;
+        y = temp;
+
+        System.out.println("x : " + x);
+        System.out.println("y : " + y);
+
+    }
+
+}
