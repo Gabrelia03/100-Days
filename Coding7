@@ -1,0 +1,13 @@
+public class isc7 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("masukkan angka:");
+        int angka = input.nextInt();
+
+        for (int a=20; angka<=a ; angka++){
+            System.out.println(angka);
+        }
+    
+    }
+    
+}
